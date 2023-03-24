@@ -50,11 +50,13 @@ struct ContentView: View {
                                     .padding(4.0)
                             }
                             .disabled(state.isStarted && !state.isPaused)
+                            
                             Button(action: pauseButtonPress) {
                                 Image(systemName: "pause.fill")
                                     .font(.system(size: 24.0))
                                     .padding(4.0)
                             }.disabled(!state.isStarted || state.isPaused)
+                            
                             Button(action: stopButtonPress) {
                                 Image(systemName: "stop.fill")
                                     .font(.system(size: 24.0))

@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0AB30D29CDF037002C3766 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B0AB30E29CDF055002C3766 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		5B86615729CDE70900ADD179 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		5BA101E029CD06C9009E06B1 /* Reflex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA101E329CD06C9009E06B1 /* ReflexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflexApp.swift; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		5BA101D729CD06C9009E06B1 = {
 			isa = PBXGroup;
 			children = (
+				5B0AB30E29CDF055002C3766 /* LICENSE.md */,
+				5B0AB30D29CDF037002C3766 /* README.md */,
 				5BA101E229CD06C9009E06B1 /* Reflex */,
 				5BA101F329CD06CB009E06B1 /* ReflexTests */,
 				5BA101FD29CD06CB009E06B1 /* ReflexUITests */,

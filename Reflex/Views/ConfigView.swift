@@ -30,6 +30,7 @@ struct ConfigView: View {
             LogarithmicSliderView(value: $config.variance)
                 .foregroundColor(.black)
                 .tint(Color("ActionOrange"))
+                .padding(.horizontal)
 
             
             //Text("Alarm").opacity(0.5)
