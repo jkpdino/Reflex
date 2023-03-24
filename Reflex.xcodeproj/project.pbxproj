@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B86615829CDE70900ADD179 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B86615729CDE70900ADD179 /* Config.swift */; };
 		5BA101E429CD06C9009E06B1 /* ReflexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA101E329CD06C9009E06B1 /* ReflexApp.swift */; };
 		5BA101E629CD06C9009E06B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA101E529CD06C9009E06B1 /* ContentView.swift */; };
 		5BA101E829CD06CB009E06B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA101E729CD06CB009E06B1 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		5BA101F529CD06CB009E06B1 /* ReflexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA101F429CD06CB009E06B1 /* ReflexTests.swift */; };
 		5BA101FF29CD06CB009E06B1 /* ReflexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA101FE29CD06CB009E06B1 /* ReflexUITests.swift */; };
 		5BA1020129CD06CB009E06B1 /* ReflexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1020029CD06CB009E06B1 /* ReflexUITestsLaunchTests.swift */; };
+		5BA1021129CD093D009E06B1 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1021029CD093D009E06B1 /* ConfigView.swift */; };
+		5BA1021329CD0BD5009E06B1 /* IntervalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1021229CD0BD4009E06B1 /* IntervalPickerView.swift */; };
+		5BA1021529CD0DD9009E06B1 /* LogarithmicSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1021429CD0DD9009E06B1 /* LogarithmicSliderView.swift */; };
+		5BA1021729CD1500009E06B1 /* AlertSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1021629CD1500009E06B1 /* AlertSelectorView.swift */; };
+		5BA1021A29CD15DE009E06B1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1021929CD15DE009E06B1 /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B86615729CDE70900ADD179 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		5BA101E029CD06C9009E06B1 /* Reflex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA101E329CD06C9009E06B1 /* ReflexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflexApp.swift; sourceTree = "<group>"; };
 		5BA101E529CD06C9009E06B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		5BA101FA29CD06CB009E06B1 /* ReflexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReflexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA101FE29CD06CB009E06B1 /* ReflexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflexUITests.swift; sourceTree = "<group>"; };
 		5BA1020029CD06CB009E06B1 /* ReflexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BA1021029CD093D009E06B1 /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		5BA1021229CD0BD4009E06B1 /* IntervalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalPickerView.swift; sourceTree = "<group>"; };
+		5BA1021429CD0DD9009E06B1 /* LogarithmicSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogarithmicSliderView.swift; sourceTree = "<group>"; };
+		5BA1021629CD1500009E06B1 /* AlertSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSelectorView.swift; sourceTree = "<group>"; };
+		5BA1021929CD15DE009E06B1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,8 @@
 		5BA101E229CD06C9009E06B1 /* Reflex */ = {
 			isa = PBXGroup;
 			children = (
+				5BA1021829CD15D4009E06B1 /* Models */,
+				5BA1020D29CD0919009E06B1 /* Views */,
 				5BA101E329CD06C9009E06B1 /* ReflexApp.swift */,
 				5BA101E529CD06C9009E06B1 /* ContentView.swift */,
 				5BA101E729CD06CB009E06B1 /* Assets.xcassets */,
@@ -125,6 +139,26 @@
 				5BA1020029CD06CB009E06B1 /* ReflexUITestsLaunchTests.swift */,
 			);
 			path = ReflexUITests;
+			sourceTree = "<group>";
+		};
+		5BA1020D29CD0919009E06B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BA1021029CD093D009E06B1 /* ConfigView.swift */,
+				5BA1021229CD0BD4009E06B1 /* IntervalPickerView.swift */,
+				5BA1021429CD0DD9009E06B1 /* LogarithmicSliderView.swift */,
+				5BA1021629CD1500009E06B1 /* AlertSelectorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BA1021829CD15D4009E06B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BA1021929CD15DE009E06B1 /* State.swift */,
+				5B86615729CDE70900ADD179 /* Config.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA1021129CD093D009E06B1 /* ConfigView.swift in Sources */,
+				5BA1021529CD0DD9009E06B1 /* LogarithmicSliderView.swift in Sources */,
 				5BA101E629CD06C9009E06B1 /* ContentView.swift in Sources */,
+				5BA1021329CD0BD5009E06B1 /* IntervalPickerView.swift in Sources */,
+				5BA1021729CD1500009E06B1 /* AlertSelectorView.swift in Sources */,
+				5B86615829CDE70900ADD179 /* Config.swift in Sources */,
+				5BA1021A29CD15DE009E06B1 /* State.swift in Sources */,
 				5BA101E429CD06C9009E06B1 /* ReflexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

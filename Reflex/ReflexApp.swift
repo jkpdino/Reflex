@@ -11,7 +11,7 @@ import SwiftUI
 struct ReflexApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(state: TimerState())
         }
     }
 }
